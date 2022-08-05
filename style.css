@@ -19,6 +19,7 @@ h1 {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    flex: 1;
 }
 .top {
     display: flex;
@@ -42,6 +43,9 @@ a,
     
 }
 
+a:hover {
+    color:#3882f6;
+}
 .introduction {
     display: flex;
     gap: 20px;
@@ -50,7 +54,8 @@ a,
 }
 
 .introduction img {
-    max-width: 300px;
+    max-width: 400px;
+    flex:1;
 }
 
 .header div {
@@ -93,6 +98,7 @@ a,
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    flex: 1;
 }
 
 .information {
@@ -112,11 +118,10 @@ a,
 .boxes img {
     border-radius: 5px;
     border: 5px solid #3882f6;
+    transition: ease 0.2s;
 }
 
 .boxes img:hover {
-    border-radius: 5px;
-    border: 5px solid #3882f6;
     transform: translate(0px,-5px);
 }
 
@@ -132,6 +137,7 @@ a,
     font-style: italic;
     color: #1F2937;
     font-weight: lighter;
+    flex: 1;
 }
 
 .author {
@@ -152,6 +158,7 @@ a,
     max-width: 550px;
     gap: 30px;
     border-radius: 5px;
+    flex: 1;
 }
 
 .sign-up div {
@@ -187,6 +194,7 @@ a,
     background-color: #1F2937;
     color: white;
     padding: 20px;
+    flex: 1;
 }
 
 img {
