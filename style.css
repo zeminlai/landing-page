@@ -3,10 +3,13 @@ body {
     flex-direction: column;
     padding: 0px;
     margin: 0px;
+    font-family: "Arial";
 }
 
 h1 {
     margin: 0px;
+    font-size: 48px;
+    color: #F9FAF8;
 }
 
 /*Header*/
@@ -30,9 +33,12 @@ ul {
     gap: 20px;
 }
 
-a{
+a,
+.container div{
     text-decoration: none;
-    color:darkgray;
+    color:#E5E7EB;
+    font-size: 18px;
+    
 }
 
 .introduction {
@@ -42,7 +48,7 @@ a{
 }
 
 .introduction img {
-    max-width: 500px;
+    max-width: 300px;
     flex:1;
 }
 
@@ -52,10 +58,106 @@ a{
 
 .introduction button {
     margin-top: 10px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    border-style: none;
+
 }
 
 .container {
    max-width: 500px;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+/*Information*/
+.info-title {
+    margin: 30px auto 30px auto;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxes img {
+    border-radius: 5px;
+    border: 5px solid #3882f6;
+}
+/*Quotes*/
+.quotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px 100px 200px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.author {
+    align-self: end;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+}
+
+/*Sign up*/
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 100px auto 100px auto;
+    padding: 25px 50px 25px 50px;
+    max-width: 550px;
+    gap: 30px;
+    border-radius: 5px;
+}
+
+.sign-up div {
+    flex: 1;
+    color: white;
+}
+
+.sign-up button {
+    background-color: #3882f6;
+    border-color: white;
+    text-decoration: none;
+    color:white;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    border-style: solid;
+}
+
+/*Footer*/
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
 }
 
 img {
