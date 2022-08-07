@@ -40,11 +40,15 @@ a,
     text-decoration: none;
     color:#E5E7EB;
     font-size: 18px;
+    display: inline-block;
+    transition: ease-in 0.1s;
     
 }
 
 a:hover {
-    color:#3882f6;
+    transform: translate(0,-2px);
+    color:#497fd6;
+    text-shadow: 0px 5px 5px black;
 }
 .introduction {
     display: flex;
@@ -69,6 +73,7 @@ a:hover {
     border-radius: 5px;
     padding: 5px 20px 5px 20px;
     border-style: none;
+    transition: ease-in 0.1s;
 }
 
 .introduction button:hover {
@@ -123,6 +128,8 @@ a:hover {
 
 .boxes img:hover {
     transform: translate(0px,-5px);
+    box-shadow: 0 3px 10px black;
+    filter: brightness(90%);
 }
 
 /*Quotes*/
@@ -174,6 +181,7 @@ a:hover {
     border-radius: 5px;
     padding: 5px 20px 5px 20px;
     border-style: solid;
+    transition: ease-in 0.1s;
 }
 
 .sign-up button:hover {
